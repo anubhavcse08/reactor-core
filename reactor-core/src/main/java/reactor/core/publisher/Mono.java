@@ -279,7 +279,7 @@ public abstract class Mono<T> implements Publisher<T> {
 	 * and replay that signal, effectively behaving like the fastest of these competing
 	 * sources.
 	 * <p>
-	 * <img class="marble" src="doc-files/marbles/firstVarSourcesForMono.svg" alt="">
+	 * <img class="marble" src="doc-files/marbles/firstForMono.svg" alt="">
 	 * <p>
 	 * @param monos The deferred monos to use.
 	 * @param <T> The type of the function result.
@@ -295,7 +295,7 @@ public abstract class Mono<T> implements Publisher<T> {
 	 * Pick the first available result coming from any of the given monos and populate a new {@literal Mono}.
 	 *
 	 * <p>
-	 * <img class="marble" src="doc-files/marbles/firstIterableSourcesForMono.svg" alt="">
+	 * <img class="marble" src="doc-files/marbles/firstForMono.svg" alt="">
 	 * <p>
 	 * @param monos The monos to use.
 	 * @param <T> The type of the function result.

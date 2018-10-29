@@ -874,7 +874,7 @@ public abstract class Flux<T> implements Publisher<T> {
 	 * fastest of these competing sources.
 	 *
 	 * <p>
-	 * <img class="marble" src="doc-files/marbles/firstVarSourcesForFlux.svg" alt="">
+	 * <img class="marble" src="doc-files/marbles/firstForFlux.svg" alt="">
 	 *
 	 * @param sources The competing source publishers
 	 * @param <I> The type of values in both source and output sequences
@@ -892,7 +892,7 @@ public abstract class Flux<T> implements Publisher<T> {
 	 * fastest of these competing sources.
 	 *
 	 * <p>
-	 * <img class="marble" src="doc-files/marbles/firstIterableSourcesForFlux.svg" alt="">
+	 * <img class="marble" src="doc-files/marbles/firstForFlux.svg" alt="">
 	 *
 	 * @param sources The competing source publishers
 	 * @param <I> The type of values in both source and output sequences
